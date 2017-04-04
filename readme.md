@@ -1,5 +1,9 @@
 ## Theory
 
+A brief description:
+https://en.wikipedia.org/wiki/Graph_theory
+
+
 ![alt tag](https://i0.wp.com/techieme.in/wp-content/uploads/graph10.png)
 ### Vertex
 ### Edges
