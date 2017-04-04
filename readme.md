@@ -1,5 +1,7 @@
 ## Theory
 
+Link: https://visualgo.net/graphds
+
 ### Vertex
 ### Edges
 ### Degree of Vertex
@@ -10,12 +12,11 @@
 ### Path
 ### Circuit
 
-### Storing a Graph
-Adjacency Matrix
-Adjacency List
-Link: https://visualgo.net/graphds
+## Storing a Graph
+### Adjacency Matrix
+### Adjacency List
 
-### Algorithms
+## Algorithms
 DFS
 BFS
 
