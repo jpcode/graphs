@@ -13,8 +13,13 @@
 ### Directed Graph
 ![alt tag](https://upload.wikimedia.org/wikipedia/commons/5/51/Directed_graph.svg)
 ### Walk
+A walk is termed as a sequence of edges. A vertex can appear more than once in a walk. For the Graph 7, a possible walk would be P -> R -> Q is a walk. Also, Q -> S -> Q -> R -> P -> R -> T is another walk.
+
 ### Path
+A path is a walk in which the vertices do not repeat, that means no vertex can appear more than once in a path. For the Graph 7, a possible path would be P -> R -> Q. Another path could be P -> R -> T -> S -> Q
+
 ### Circuit
+A Circuit is a path which begins and ends at the same vertex. In Graph 5 P -> Q -> R -> S -> P is a circuit.
 
 ## Storing a Graph
 Link: https://visualgo.net/graphds
