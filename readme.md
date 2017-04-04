@@ -1,9 +1,6 @@
 ## Theory
 
-Link: https://visualgo.net/graphds
-
-
-
+![alt tag](https://i0.wp.com/techieme.in/wp-content/uploads/graph10.png)
 ### Vertex
 ### Edges
 ### Degree of Vertex
@@ -11,15 +8,16 @@ Link: https://visualgo.net/graphds
 ### Multiple edges
 ### Simple Graph
 ![alt tag](https://image.slidesharecdn.com/vignan-130911102520-phpapp01/95/graph-theory-10-638.jpg?cb=1378895377)
-### Directed Graph
-![alt tag](https://upload.wikimedia.org/wikipedia/commons/5/51/Directed_graph.svg)
 ### Undirected Graph
 ![alt tag](http://bcu.copsewood.net/dsalg/graph/diag1.jpg)
+### Directed Graph
+![alt tag](https://upload.wikimedia.org/wikipedia/commons/5/51/Directed_graph.svg)
 ### Walk
 ### Path
 ### Circuit
 
 ## Storing a Graph
+Link: https://visualgo.net/graphds
 ### Adjacency Matrix
 ### Adjacency List
 
