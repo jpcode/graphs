@@ -2,6 +2,8 @@
 
 Link: https://visualgo.net/graphds
 
+![alt tag](http://bcu.copsewood.net/dsalg/graph/diag1.jpg)
+
 ### Vertex
 ### Edges
 ### Degree of Vertex
