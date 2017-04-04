@@ -1,14 +1,14 @@
-##Theory
+## Theory
 
-###Vertex
-###Edges
-###Degree of Vertex
-###Loops
-###Directed Graph
-###Undirected Graph
-###Walk
-###Path
-###Circuit
+### Vertex
+### Edges
+### Degree of Vertex
+### Loops
+### Directed Graph
+### Undirected Graph
+### Walk
+### Path
+### Circuit
 
 ### Storing a Graph
 Adjacency Matrix
