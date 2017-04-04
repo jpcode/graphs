@@ -17,8 +17,8 @@ Link: https://visualgo.net/graphds
 ### Adjacency List
 
 ## Algorithms
-DFS
-BFS
+### DFS
+### BFS
 
 ## References
 
