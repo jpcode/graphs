@@ -2,14 +2,19 @@
 
 Link: https://visualgo.net/graphds
 
-![alt tag](http://bcu.copsewood.net/dsalg/graph/diag1.jpg)
+
 
 ### Vertex
 ### Edges
 ### Degree of Vertex
 ### Loops
+### Multiple edges
+### Simple Graph
+![alt tag](https://image.slidesharecdn.com/vignan-130911102520-phpapp01/95/graph-theory-10-638.jpg?cb=1378895377)
 ### Directed Graph
+![alt tag](https://upload.wikimedia.org/wikipedia/commons/5/51/Directed_graph.svg)
 ### Undirected Graph
+![alt tag](http://bcu.copsewood.net/dsalg/graph/diag1.jpg)
 ### Walk
 ### Path
 ### Circuit
