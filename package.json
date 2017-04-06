@@ -5,7 +5,7 @@
   "scripts": {
     "docs": "gulp jsdoc",
     "test": "gulp test",
-    "server:docs": "http-server js_doc --cors"
+    "server:docs": "http-server js_doc --cors -o"
   },
   "repository": {
     "type": "git",
