@@ -1,0 +1,22 @@
+{
+    "tags": {
+        "allowUnknownTags": true
+    },
+    "source": {
+        "include": [
+            "./src/bfs/",
+            "./src/dfs/"
+        ],
+        "includePattern": ".+\\.js(doc)?$",
+        "excludePattern": "docs"
+    },
+    "plugins": [],
+    "opts": {
+        "template": "templates/default",
+        "encoding": "utf8",
+        "destination": "js_doc",
+        "recurse": true,
+        "private": false,
+        "readme": "./readme.md"
+    }
+}
