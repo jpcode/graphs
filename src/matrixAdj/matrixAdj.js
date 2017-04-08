@@ -31,7 +31,7 @@
          matrix[dx][dy] = 1;
          matrix[dy][dx] = 1;
       }
-      console.log( matrix );
+      //console.log( matrix );
       return matrix;
   };
 
