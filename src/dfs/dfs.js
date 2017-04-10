@@ -1,19 +1,19 @@
 (function (exports) {
   'use strict';
-  /**
-   * Method to sum 2 numbers
-   * @module adhoc/sum
-   * @param {a} number - Number to sum.
-   * @param {b} number - Number to sum.
-   * @returns {Number} return the sum of a + b
-   *
-   * @example
-   * var sum = require('your_path/src/sum').sum;
-   *
-   * console.log(sum(1,2)); // 3
-   */
-  exports.dfs = function ( a, b ) {
-      return a + b;
+
+  var dfs = function ( G, v ) {
+      G.marked[ v ] = true;
+      if ( G.adj[ v ] != undefined ){
+          console.log('Visited vertex: ' + v);
+      }
+
+      for ( var w of G.adj[ v ] ){
+        if ( !G.marked[ w ] ){
+           dfs(G, w);
+        }
+      }
   };
+
+  exports.dfs = dfs;
 
 }(typeof exports === 'undefined' ? window : exports));
