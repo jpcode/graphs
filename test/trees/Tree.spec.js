@@ -14,7 +14,10 @@ describe('Trees', function () {
     nums.insert(99);
     nums.insert(22);
     nums.inOrder( nums.root );
-    
+    console.log(' ');
+    nums.preOrder( nums.root );
+    console.log(' ');
+    nums.postOrder( nums.root );
   });
 
 });

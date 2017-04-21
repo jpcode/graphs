@@ -14,6 +14,8 @@
       this.root = null;
       this.insert = insert;
       this.inOrder = inOrder;
+      this.preOrder = preOrder;
+      this.postOrder = postOrder;
 
       function insert( data ){
         var n = new Node( data, null, null );
@@ -41,13 +43,32 @@
         }
       }
 
+      function preOrder( node ){
+        if ( !( node == null ) ){
+          console.log( node.data );
+          preOrder( node.left );
+          preOrder( node.right );
+        }
+      }
+
       function inOrder( node ){
+         console.log( 'inord: ', node != null ? node.data : 'null' );
          if ( !( node == null ) ){
             inOrder( node.left );
-            console.log( node.data + ' ' );
+            console.log( node.data );
             inOrder(node.right);
          }
       }
+
+      function postOrder(node) {
+        if (!(node == null)) {
+            postOrder(node.left);
+            postOrder(node.right);
+            console.log( node.data );
+       }
+      }
+
+    
 
   };
   exports.Tree = Tree;
